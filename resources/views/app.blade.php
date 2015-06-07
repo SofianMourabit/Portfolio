@@ -16,18 +16,18 @@
     <![endif]-->
 </head>
 <body>
-
+<div class="page">
 <header class="header">
-    <div class="center">
         <nav class="menu navbar navbar-default">
+            <div class="container">
             <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="">
                     <span class="sr-only">Toggle Navigation</span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a href="{{ url('/') }}" class="logo" ></a>
+                <a href="{{ url('/') }}" class="navbar-brand logo" ></a>
             </div>
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
@@ -50,14 +50,16 @@
                     @endif
                 </ul>
             </div>
+            </div>
         </nav>
-    </div>
 </header>
+<!--
 <div class="container">
 <figure class="fig cover" ><img src="/images/header.jpg" alt="" class="img-responsive"></figure>
 </div>
+-->
 @yield('content')
-
+</div>
 <!-- Scripts -->
 <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.1/js/bootstrap.min.js"></script>

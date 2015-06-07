@@ -5804,54 +5804,39 @@ button.close {
 body {
   font-family: "Playfair Display", sans-serif !important; }
 
-.header {
-  width: 100%;
-  height: auto;
-  margin: 50px 0 0;
-  z-index: 4; }
-
-.navbar-default {
-  background-color: transparent; }
+.page {
+  min-height: 100%;
+  height: auto !important;
+  margin-bottom: -100px;
+  background: #F9F9F9; }
 
 .navbar-default .navbar-nav > li > a {
   color: white; }
 
-.navbar {
-  border: none;
-  z-index: 100; }
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+  color: white;
+  font-size: large; }
 
 .navbar-nav > li > a {
   padding-bottom: 0px; }
 
-.center {
-  width: 970px;
-  margin: 0 auto; }
+.navbar {
+  background: 0 0;
+  position: relative;
+  top: 20px;
+  padding: 0;
+  border-bottom: none;
+  margin-bottom: 0px;
+  z-index: 1000;
+  min-height: 50px;
+  border: none; }
 
-@media only screen and (max-width: 970px) {
-  .center {
-    width: 680px; } }
+.navbar-brand {
+  padding: 35px; }
 
-@media only screen and (max-width: 680px) {
-  .center {
-    width: 100%;
-    padding: 0 30px; } }
-
-.header .logo {
-  float: left;
-  display: inline-block;
-  height: 75px;
+.header {
   width: 100%;
-  background: transparent url("/images/logo-lion2.png") no-repeat 0 0;
-  background-size: contain;
-  z-index: 100;
-  position: relative; }
-
-.container-home {
-  margin-top: 70px; }
-
-.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
-  color: white;
-  font-size: large; }
+  height: auto; }
 
 .header .menu a {
   display: inline-block;
@@ -5865,19 +5850,12 @@ body {
 .header .menu a:hover, .header .menu a.active {
   border-color: white; }
 
-.fig {
-  position: absolute;
-  z-index: 0;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  margin: 0; }
-
-.cover {
+.header .logo {
+  height: 75px;
+  background: transparent url("/images/logo-lion2.png") no-repeat 0 0;
   background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center; }
+  margin-left: 0px !important;
+  border-bottom: none !important; }
 
 .h1-cover {
   font-size: 3em; }
@@ -5885,6 +5863,28 @@ body {
 .cd-headline {
   color: white;
   text-align: left; }
+
+.container-home {
+  background: url(/images/header.jpg) no-repeat;
+  background-size: cover;
+  text-align: center;
+  margin-top: -95px;
+  padding: 37em 0;
+  position: relative;
+  color: #fff; }
+
+.container {
+  position: relative; }
+
+@media (max-width: 1700px) {
+  .container-home {
+    padding: 15em 0; } }
+
+@media (max-width: 970px) {
+  .container-home {
+    height: auto;
+    padding: 10em 0;
+    text-align: center; } }
 
 /*# sourceMappingURL=app.css.map */
 /* http://meyerweb.com/eric/tools/css/reset/ 
