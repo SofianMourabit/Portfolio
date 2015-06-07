@@ -1,0 +1,110 @@
+@import url(http://fonts.googleapis.com/css?family=Playfair+Display);
+
+@font-face {font-family: 'MuseoSans-500';src: url('/fonts/2E3E71_0_0.eot');src: url('/fonts/2E3E71_0_0.eot?#iefix') format('embedded-opentype'),url('/fonts/2E3E71_0_0.woff2') format('woff2'),url('/fonts/2E3E71_0_0.woff') format('woff'),url('/fonts/2E3E71_0_0.ttf') format('truetype');}
+
+
+@font-face {font-family: 'MuseoSans-500Italic';src: url('/fonts/2E3E71_1_0.eot');src: url('/fonts/2E3E71_1_0.eot?#iefix') format('embedded-opentype'),url('/fonts/2E3E71_1_0.woff2') format('woff2'),url('/fonts/2E3E71_1_0.woff') format('woff'),url('/fonts/2E3E71_1_0.ttf') format('truetype');}
+
+@import "bootstrap/bootstrap";
+
+
+body{
+  font-family: 'Playfair Display', sans-serif!important;
+}
+
+
+.header {
+  width: 100%;
+  height: auto;
+  margin: 50px 0 0;
+  z-index: 4;
+}
+
+.navbar-default {
+  background-color: transparent;
+}
+.navbar-default .navbar-nav > li > a {
+  color: white;
+}
+.navbar {
+  border: none;
+  z-index: 100;
+}
+.navbar-nav > li > a{
+  padding-bottom: 0px;
+}
+
+
+.center {
+  width: 970px;
+  margin: 0 auto;
+}
+@media only screen and (max-width: 970px){
+  .center {
+    width: 680px;
+  }
+}
+@media only screen and (max-width: 680px){
+  .center {
+    width: 100%;
+    padding: 0 30px;
+  }
+}
+.header .logo {
+  float: left;
+  display: inline-block;
+  height: 75px;
+  width: 100%;
+  background: transparent url("/images/logo-lion2.png") no-repeat 0 0;
+  background-size: contain;
+  z-index: 100;
+  position: relative;
+}
+
+.container-home {
+  margin-top: 70px;
+}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+  color: white;
+  font-size: large;
+}
+.header .menu a {
+  display: inline-block;
+  margin: 0 5px;
+  border-bottom: 2px solid transparent;
+  font: normal 700 12px/30px MuseoSans-500,sans-serif;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 3px;
+}
+
+.header .menu a:hover, .header .menu a.active {
+  border-color: white;
+
+}
+
+.fig {
+  position: absolute;
+  z-index: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: 0;
+}
+.cover {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.h1-cover{
+  font-size: 3em;
+}
+
+.cd-headline {
+  color: white;
+  text-align: left;
+}
+
