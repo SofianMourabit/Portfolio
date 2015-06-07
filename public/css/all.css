@@ -5834,11 +5834,7 @@ body {
 .navbar-brand {
   padding: 35px; }
 
-.header {
-  width: 100%;
-  height: auto; }
-
-.header .menu a {
+.menu a {
   display: inline-block;
   margin: 0 5px;
   border-bottom: 2px solid transparent;
@@ -5847,10 +5843,10 @@ body {
   text-decoration: none;
   letter-spacing: 3px; }
 
-.header .menu a:hover, .header .menu a.active {
+.menu a:hover, .menu a.active {
   border-color: white; }
 
-.header .logo {
+.logo {
   height: 75px;
   background: transparent url("/images/logo-lion2.png") no-repeat 0 0;
   background-size: cover;
@@ -5876,15 +5872,25 @@ body {
 .container {
   position: relative; }
 
+@media (max-width: 2400px) {
+  .container-home {
+    padding: 3em 0; } }
+
 @media (max-width: 1700px) {
   .container-home {
-    padding: 15em 0; } }
+    padding: 5em 0; } }
 
 @media (max-width: 970px) {
   .container-home {
-    height: auto;
-    padding: 10em 0;
-    text-align: center; } }
+    padding: 5em 0; } }
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+  .container-home {
+    padding: 16em; } }
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+  .container-home {
+    padding: 20em; } }
 
 /*# sourceMappingURL=app.css.map */
 /* http://meyerweb.com/eric/tools/css/reset/ 

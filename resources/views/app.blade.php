@@ -17,9 +17,8 @@
 </head>
 <body>
 <div class="page">
-<header class="header">
-        <nav class="menu navbar navbar-default">
-            <div class="container">
+    <nav class="menu navbar navbar-default">
+        <div class="container">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="">
                     <span class="sr-only">Toggle Navigation</span>
@@ -50,15 +49,9 @@
                     @endif
                 </ul>
             </div>
-            </div>
-        </nav>
-</header>
-<!--
-<div class="container">
-<figure class="fig cover" ><img src="/images/header.jpg" alt="" class="img-responsive"></figure>
-</div>
--->
-@yield('content')
+        </div>
+    </nav>
+    @yield('content')
 </div>
 <!-- Scripts -->
 <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
