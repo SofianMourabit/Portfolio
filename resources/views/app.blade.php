@@ -32,18 +32,18 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     @if (Auth::guest())
-                        <li><a href="{{ url('/auth/login') }}">ABOUT</a></li>
-                        <li><a href="{{ url('/auth/login') }}">WORK</a></li>
-                        <li><a href="{{ url('/auth/login') }}">JOURNAL</a></li>
-                        <li><a href="{{ url('/auth/login') }}">CONTACT</a></li>
+                        <li><a href="{{ url('/about') }}">ABOUT</a></li>
+                        <li><a href="{{ url('/work') }}">WORK</a></li>
+                        <li><a href="{{ url('/journal') }}">JOURNAL</a></li>
+                        <li><a href="{{ url('/contact') }}">CONTACT</a></li>
                     @else
                         <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">{{ Auth::user()->name }} <span class="caret"></span></a>
                             <ul class="dropdown-menu" role="menu">
-                                <li><a href="{{ url('/auth/login') }}">ABOUT</a></li>
-                                <li><a href="{{ url('/auth/login') }}">WORK</a></li>
-                                <li><a href="{{ url('/auth/login') }}">JOURNAL</a></li>
-                                <li><a href="{{ url('/auth/login') }}">CONTACT</a></li>
+                                <li><a href="{{ url('/about') }}">ABOUT</a></li>
+                                <li><a href="{{ url('/work') }}">WORK</a></li>
+                                <li><a href="{{ url('/journal') }}">JOURNAL</a></li>
+                                <li><a href="{{ url('/contact') }}">CONTACT</a></li>
                                 <li><a href="{{ url('/auth/logout') }}">Logout</a></li>
                             </ul>
                         </li>
