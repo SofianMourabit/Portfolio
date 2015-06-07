@@ -19,7 +19,14 @@
             </div>
         </div>
     </div>
+    <div class="piece">
+        <div class="row">
+        <div class="container wrap">
+            <h2 class="section-heading">
+                A true indication of intelligence is not knowledge but imagination.</h2>
+            <span class="section-heading-divider"></span>
+        </div>
+            </div>
     </div>
-
 
 @endsection

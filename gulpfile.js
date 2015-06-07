@@ -13,7 +13,6 @@ var elixir = require('laravel-elixir');
 
 elixir(function(mix) {
     mix.sass('app.scss')
-        .copy('vendor/animated-headline/css', 'public/css/style.css')
         .copy('vendor/animated-headline/css', 'public/css/')
         .copy('vendor/animated-headline/js/main.js', 'public/js/main-headline.js')
         .copy('vendor/animated-headline/js/modernizr.js', 'public/js/modernizr.js')

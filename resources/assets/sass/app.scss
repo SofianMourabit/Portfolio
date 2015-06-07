@@ -10,12 +10,13 @@
 
 body{
   font-family: 'Playfair Display', sans-serif!important;
+  background-color: white;
 }
 .page {
   min-height: 100%;
   height: auto!important;
   margin-bottom: -100px;
-  background: #F9F9F9;
+  background: white;
 }
 
 .navbar-default .navbar-nav > li > a {
@@ -87,6 +88,25 @@ body{
 .container {
   position: relative;
 }
+.wrap {
+  padding-top: 3em;
+  padding-bottom: 3em;
+  counter-reset: section;
+}
+.section-heading {
+  margin: .5em 0 0;
+  text-align: center;
+  line-height: 1em;
+  color: #555;
+  font-size: 3em;
+}
+.section-heading-divider {
+  border-top: 4px solid #02374D;
+  display: block;
+  width: 70px;
+  height: 1px;
+  margin: 40px auto;
+}
 
 @media (max-width: 2400px){
   .container-home {
@@ -122,6 +142,6 @@ and (min-device-width : 768px)
 and (max-device-width : 1024px)
 and (orientation : portrait) {
   .container-home {
-    padding: 20em;
+    padding: 10em;
   }
 }
