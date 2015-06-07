@@ -5818,7 +5818,7 @@ body {
   font-size: large; }
 
 .navbar-nav > li > a {
-  padding-bottom: 0px; }
+  padding-bottom: 10px; }
 
 .navbar {
   background: 0 0;
@@ -5857,8 +5857,7 @@ body {
   font-size: 3em; }
 
 .cd-headline {
-  color: white;
-  text-align: left; }
+  color: white; }
 
 .container-home {
   background: url(/images/header.jpg) no-repeat;

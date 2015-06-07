@@ -12,7 +12,7 @@
                             <b class="is-visible">Back-end Developer.</b>
                             <b>Web Designer.</b>
                             <b>Photographer.</b>
-                            <b>And I love to travel.</b>
+                            <b>Digital nomad.</b>
                         </span>
                     </h1>
                 </section>
